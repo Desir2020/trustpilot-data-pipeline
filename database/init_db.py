@@ -1,6 +1,5 @@
 import sqlite3
 from pathlib import Path
-import logging 
 
 db_dir = Path(__file__).parent 
 
@@ -10,16 +9,13 @@ def create_database():
 
         cur = con.cursor() 
 
-        cur.execute("CREATE TABLE IF NOT EXISTS Reviews(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, title TEXT, stars INTEGER NOT NULL, description TEXT, date TEXT NOT NULL)")
+        cur.execute("CREATE TABLE IF NOT EXISTS Reviews(id INTEGER PRIMARY KEY AUTOINCREMENT, company_name TEXT NOT NULL, author_name TEXT NOT NULL, title TEXT, rating INTEGER NOT NULL, description TEXT, reviewed_at TEXT NOT NULL)")
 
         con.commit()
 
         con.close()
     except sqlite3.Error as e:
-        logging.error(f"Erreur : {e}")
-
-
-
+        raise ValueError(f"Erreur : {e}")
     
 
 if __name__ == "__main__":
