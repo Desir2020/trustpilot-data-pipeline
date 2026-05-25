@@ -2,3 +2,75 @@
 2026-05-25 15:32:47,352 - INFO - Transformation des données
 2026-05-25 15:32:47,363 - INFO - Chargement des données
 2026-05-25 15:32:47,408 - INFO - Pipeline terminée
+2026-05-25 15:38:42,383 - INFO - Démarrage du pipeline
+2026-05-25 15:38:42,437 - INFO - Transformation des données
+2026-05-25 15:38:42,445 - INFO - Chargement des données
+2026-05-25 15:38:42,451 - ERROR - Erreur dans le pipeline: __enter__
+2026-05-25 15:40:59,702 - INFO - Démarrage du pipeline
+2026-05-25 15:40:59,794 - INFO - Transformation des données
+2026-05-25 15:40:59,808 - INFO - Chargement des données
+2026-05-25 15:40:59,871 - INFO - Pipeline terminée
+2026-05-25 15:43:20,447 - INFO - Démarrage du pipeline
+2026-05-25 15:43:20,498 - INFO - Transformation des données
+2026-05-25 15:43:20,501 - INFO - Chargement des données
+2026-05-25 15:43:20,502 - ERROR - Erreur dans le pipeline: module 'sqlite3' has no attribute 'connect_db'
+2026-05-25 15:43:56,465 - INFO - Démarrage du pipeline
+2026-05-25 15:43:56,533 - INFO - Transformation des données
+2026-05-25 15:43:56,536 - INFO - Chargement des données
+2026-05-25 15:43:56,589 - INFO - Pipeline terminée
+2026-05-25 15:58:28,671 - INFO - Démarrage du pipeline
+2026-05-25 15:58:28,743 - INFO - Transformation des données
+2026-05-25 15:58:28,754 - INFO - Chargement des données
+2026-05-25 15:58:28,817 - INFO - Pipeline terminée
+2026-05-25 15:58:47,162 - INFO - Démarrage du pipeline
+2026-05-25 15:58:47,250 - INFO - Transformation des données
+2026-05-25 15:58:47,253 - INFO - Chargement des données
+2026-05-25 15:58:47,285 - INFO - Pipeline terminée
+2026-05-25 15:59:35,726 - INFO - Démarrage du pipeline
+2026-05-25 15:59:35,776 - INFO - Transformation des données
+2026-05-25 15:59:35,778 - INFO - Chargement des données
+2026-05-25 15:59:35,803 - INFO - Pipeline terminée
+2026-05-25 16:02:24,133 - INFO - Démarrage du pipeline
+2026-05-25 16:02:24,189 - INFO - Transformation des données
+2026-05-25 16:02:24,191 - INFO - Chargement des données
+2026-05-25 16:02:24,230 - INFO - Pipeline terminée
+2026-05-25 16:02:45,957 - INFO - Démarrage du pipeline
+2026-05-25 16:02:46,009 - INFO - Transformation des données
+2026-05-25 16:02:46,012 - INFO - Chargement des données
+2026-05-25 16:02:46,050 - INFO - Pipeline terminée
+2026-05-25 16:03:09,015 - INFO - Démarrage du pipeline
+2026-05-25 16:03:09,087 - INFO - Transformation des données
+2026-05-25 16:03:09,090 - INFO - Chargement des données
+2026-05-25 16:03:09,138 - INFO - Pipeline terminée
+2026-05-25 16:04:40,489 - INFO - Démarrage du pipeline
+2026-05-25 16:04:40,549 - INFO - Transformation des données
+2026-05-25 16:04:40,551 - INFO - Chargement des données
+2026-05-25 16:04:40,599 - INFO - Pipeline terminée
+2026-05-25 16:04:51,503 - INFO - Démarrage du pipeline
+2026-05-25 16:04:51,594 - INFO - Transformation des données
+2026-05-25 16:04:51,597 - INFO - Chargement des données
+2026-05-25 16:04:51,645 - INFO - Pipeline terminée
+2026-05-25 16:04:59,313 - INFO - Démarrage du pipeline
+2026-05-25 16:04:59,404 - INFO - Transformation des données
+2026-05-25 16:04:59,409 - INFO - Chargement des données
+2026-05-25 16:04:59,475 - INFO - Pipeline terminée
+2026-05-25 16:05:30,892 - INFO - Démarrage du pipeline
+2026-05-25 16:05:30,958 - INFO - Transformation des données
+2026-05-25 16:05:30,960 - INFO - Chargement des données
+2026-05-25 16:05:31,021 - INFO - Pipeline terminée
+2026-05-25 16:05:37,609 - INFO - Démarrage du pipeline
+2026-05-25 16:05:37,665 - INFO - Transformation des données
+2026-05-25 16:05:37,667 - INFO - Chargement des données
+2026-05-25 16:05:37,706 - INFO - Pipeline terminée
+2026-05-25 16:06:26,190 - INFO - Démarrage du pipeline
+2026-05-25 16:06:26,247 - INFO - Transformation des données
+2026-05-25 16:06:26,249 - INFO - Chargement des données
+2026-05-25 16:06:26,295 - INFO - Pipeline terminée
+2026-05-25 16:06:32,286 - INFO - Démarrage du pipeline
+2026-05-25 16:06:32,344 - INFO - Transformation des données
+2026-05-25 16:06:32,346 - INFO - Chargement des données
+2026-05-25 16:06:32,384 - INFO - Pipeline terminée
+2026-05-25 16:06:39,417 - INFO - Démarrage du pipeline
+2026-05-25 16:06:39,500 - INFO - Transformation des données
+2026-05-25 16:06:39,503 - INFO - Chargement des données
+2026-05-25 16:06:39,559 - INFO - Pipeline terminée

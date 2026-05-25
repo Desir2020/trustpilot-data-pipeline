@@ -9,7 +9,7 @@ def create_database():
 
         cur = con.cursor() 
 
-        cur.execute("CREATE TABLE IF NOT EXISTS Reviews(id INTEGER PRIMARY KEY AUTOINCREMENT, company_name TEXT NOT NULL, author_name TEXT, title TEXT, rating INTEGER NOT NULL, description TEXT, reviewed_at TEXT NOT NULL)")
+        cur.execute("CREATE TABLE IF NOT EXISTS Reviews(id INTEGER PRIMARY KEY AUTOINCREMENT, company_name TEXT NOT NULL, author_name TEXT, title TEXT, rating INTEGER NOT NULL, description TEXT, reviewed_at TEXT NOT NULL, UNIQUE(company_name,reviewed_at,description))")
 
         con.commit()
 
