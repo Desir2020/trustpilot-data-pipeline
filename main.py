@@ -1,4 +1,7 @@
 import logging
+from extract.scrapper import read_csv
+from transform.transform import transform_csv
+from load.load import load_reviews
 
 logging.basicConfig(
     level = logging.INFO,
@@ -9,3 +12,10 @@ logging.basicConfig(
         logging.FileHandler("logs/pipeline.log")
     ]
 )
+
+df= read_csv()
+
+df_cleaned = transform_csv(df)
+
+df_load = load_reviews(df_cleaned)
+

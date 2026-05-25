@@ -7,7 +7,9 @@ def transform_csv(data):
         'review_title': 'title', 
         'review_text': 'description', 
     })
-    return df_renamed
+    tuples_list = df_renamed.itertuples(index=False, name=None)
+    return tuples_list
+
 
 
 if __name__ == "__main__":
