@@ -1,3 +1,4 @@
-import logging
-logging.warning('Watch out!')  # will print a message to the console
-logging.info('I told you so')  # will not print anything
+2026-05-25 15:32:47,293 - INFO - Démarrage du pipeline
+2026-05-25 15:32:47,352 - INFO - Transformation des données
+2026-05-25 15:32:47,363 - INFO - Chargement des données
+2026-05-25 15:32:47,408 - INFO - Pipeline terminée

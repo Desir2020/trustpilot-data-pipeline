@@ -13,9 +13,17 @@ logging.basicConfig(
     ]
 )
 
-df= read_csv()
+try:
+    logging.info("Démarrage du pipeline")
+    df= read_csv()
 
-df_cleaned = transform_csv(df)
+    logging.info("Transformation des données")
+    df_cleaned = transform_csv(df)
 
-df_load = load_reviews(df_cleaned)
+    logging.info("Chargement des données")
+    df_load = load_reviews(df_cleaned)
+
+    logging.info("Pipeline terminée")
+except Exception as e:
+    logging.error(f"Erreur dans le pipeline: {e}")
 
